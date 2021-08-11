@@ -15,8 +15,8 @@ setup(
     description = 'Instantly analyze your SEO issues',
     author = 'Dhiraj Beri',
     author_email = 'dhirajberi.official@gmail.com',
-    url = 'https://github.com/cyborg7898/Geet-Song-Downloader-', #Github link
-    download_url = 'https://github.com/Ankit404butfound/awesomepy/archive/1.0.tar.gz',#No need to change
+    url = 'https://github.com/dhirajberi/seopy',
+    download_url = 'https://github.com/dhirajberi/seopy/archive/refs/tags/1.0.tar.gz',
     keywords = ['seo', 'seopy'],
     install_requires=[
           'selenium',
