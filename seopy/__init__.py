@@ -32,7 +32,9 @@ def checkup(site):
     # driver = webdriver.Chrome('./chromedriver')
     driver.get("https://seositecheckup.com/")
 
-    search_bar = driver.find_element_by_xpath('//*[@id="field-9"]')
+    time.sleep(5)
+
+    search_bar = driver.find_element_by_xpath('//*[@id="field-10"]')
     search_bar.send_keys(site)
 
     driver.find_element_by_xpath('//*[@id="__next"]/div/div[2]/section[1]/div/div/div[1]/div[2]/form/div/div[1]/button').click()
@@ -47,7 +49,7 @@ def checkup(site):
     time.sleep(5)
 
     seo_score = driver.find_element_by_xpath('//*[@id="seo-score"]/div/div[2]/div[1]/div[1]/div/div/span').text
-    time.sleep(2)
+    time.sleep(5)
     print("\n\n")
     print('''
     █▀ █▀▀ █▀█   █▀ █▀▀ █▀█ █▀█ █▀▀
