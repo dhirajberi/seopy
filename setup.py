@@ -20,6 +20,7 @@ setup(
     keywords = ['seo', 'seopy'],
     install_requires=[
           'selenium',
+          'webdriver_manager', 
       ],
     include_package_data=True,
     long_description=readme(),
